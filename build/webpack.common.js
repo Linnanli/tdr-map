@@ -7,7 +7,7 @@ module.exports = {
     resolve: {
         extensions: ['.js'], // 自动添加拓展名，如：import './a'，会自动解析为import './a.js'
         alias: {
-            '@': srcPath // 定义源码文件夹路径的别名，如：import '@'，会解析为 import 'X:xx/xx/src'
+            'tdr-map': srcPath // 定义源码文件夹路径的别名，如：import '@'，会解析为 import 'X:xx/xx/src'
         }
     },
     module: {
